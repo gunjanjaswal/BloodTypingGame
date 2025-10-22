@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+  <!-- Background Circle -->
+  <circle cx="75" cy="75" r="70" fill="#ffffff" stroke="#e63946" stroke-width="3"/>
+  
+  <!-- Blood Drop -->
+  <path d="M75,25 C75,25 45,65 45,95 C45,112.5 58.5,125 75,125 C91.5,125 105,112.5 105,95 C105,65 75,25 75,25 Z" 
+        fill="#e63946" stroke="#e63946" stroke-width="1"/>
+  
+  <!-- Highlight -->
+  <path d="M65,95 C65,85 70,75 75,65 C80,75 85,85 85,95 C85,105 80,110 75,110 C70,110 65,105 65,95 Z" 
+        fill="#ffffff" fill-opacity="0.3"/>
+</svg>

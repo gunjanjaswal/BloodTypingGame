@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="https://i.imgur.com/JyJRXIl.png" alt="Blood Typing Game Logo" width="150" height="150">
+<img src="https://raw.githubusercontent.com/gunjanjaswal/BloodTypingGame/main/images/logo.svg" alt="Blood Typing Game Logo" width="150" height="150">
 
 # 🩸 Blood Typing Game 🩸
 
 <p align="center">
-  <img src="images/blood-compatibility-chart.svg" alt="Blood Typing Game" width="600">
+  <img src="https://raw.githubusercontent.com/gunjanjaswal/BloodTypingGame/main/images/blood-compatibility-chart.svg" alt="Blood Typing Game" width="600">
 </p>
 
 [![Website](https://img.shields.io/badge/Website-gunjanjaswal.me-4285F4?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://gunjanjaswal.me)
@@ -28,7 +28,7 @@
 </div>
 
 <h2 align="center">
-  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <hr style="height: 3px; background: linear-gradient(90deg, #e63946, #457b9d, #1d3557); border: none;">
   <br>
   📋 Overview
 </h2>
@@ -36,7 +36,7 @@
 An interactive educational web game that teaches users about blood types, blood typing procedures, and safe blood transfusions. This project is inspired by the 1930 Nobel Prize in Physiology or Medicine awarded to Karl Landsteiner for the discovery of human blood groups.
 
 <h2 align="center">
-  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <hr style="height: 3px; background: linear-gradient(90deg, #e63946, #457b9d, #1d3557); border: none;">
   <br>
   🎮 Play the Game
 </h2>
@@ -48,7 +48,7 @@ The Blood Typing Game challenges players to:
 4. Learn about blood type compatibility and the science behind it
 
 <h2 align="center">
-  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <hr style="height: 3px; background: linear-gradient(90deg, #e63946, #457b9d, #1d3557); border: none;">
   <br>
   🧪 Educational Content
 </h2>
@@ -74,7 +74,7 @@ The game covers:
   - Impact on modern medicine and transfusion safety
 
 <h2 align="center">
-  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <hr style="height: 3px; background: linear-gradient(90deg, #e63946, #457b9d, #1d3557); border: none;">
   <br>
   🔧️ Technical Details
 </h2>
@@ -109,7 +109,7 @@ BloodTypingGame/
 ```
 
 <h2 align="center">
-  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <hr style="height: 3px; background: linear-gradient(90deg, #e63946, #457b9d, #1d3557); border: none;">
   <br>
   🚀 Getting Started
 </h2>
@@ -140,7 +140,7 @@ npm start
 > 💡 **Tip:** For the best experience, use a modern browser with JavaScript enabled.
 
 <h2 align="center">
-  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <hr style="height: 3px; background: linear-gradient(90deg, #e63946, #457b9d, #1d3557); border: none;">
   <br>
   🎯 How to Play
 </h2>
@@ -157,7 +157,7 @@ npm start
 > ⚠️ **Warning**: Incorrect blood type matching can cause transfusion reactions!
 
 <h2 align="center">
-  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <hr style="height: 3px; background: linear-gradient(90deg, #e63946, #457b9d, #1d3557); border: none;">
   <br>
   📚 Learning Outcomes
 </h2>
@@ -171,7 +171,7 @@ Players will gain valuable knowledge about:
 - 🎓 **Clinical Applications**: See how blood typing knowledge saves lives in medical settings
 
 <h2 align="center">
-  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <hr style="height: 3px; background: linear-gradient(90deg, #e63946, #457b9d, #1d3557); border: none;">
   <br>
   🔮 Future Enhancements
 </h2>
@@ -186,7 +186,7 @@ Exciting features planned for future releases:
 - 📊 **Statistics**: Detailed performance tracking and learning analytics
 
 <h2 align="center">
-  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <hr style="height: 3px; background: linear-gradient(90deg, #e63946, #457b9d, #1d3557); border: none;">
   <br>
   👨‍💻 Author
 </h2>
@@ -210,7 +210,7 @@ Exciting features planned for future releases:
 </div>
 
 <h2 align="center">
-  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <hr style="height: 3px; background: linear-gradient(90deg, #e63946, #457b9d, #1d3557); border: none;">
   <br>
   ☕ Support This Project
 </h2>
@@ -226,7 +226,7 @@ Exciting features planned for future releases:
 </div>
 
 <h2 align="center">
-  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <hr style="height: 3px; background: linear-gradient(90deg, #e63946, #457b9d, #1d3557); border: none;">
   <br>
   📄 License
 </h2>
@@ -240,7 +240,7 @@ Exciting features planned for future releases:
 </div>
 
 <h2 align="center">
-  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <hr style="height: 3px; background: linear-gradient(90deg, #e63946, #457b9d, #1d3557); border: none;">
   <br>
   🙏 Acknowledgements
 </h2>
@@ -255,7 +255,7 @@ Exciting features planned for future releases:
 </div>
 
 <h2 align="center">
-  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <hr style="height: 3px; background: linear-gradient(90deg, #e63946, #457b9d, #1d3557); border: none;">
   <br>
   🔍 Keywords
 </h2>
@@ -286,7 +286,7 @@ Exciting features planned for future releases:
 </div>
 
 <div align="center">
-  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <hr style="height: 3px; background: linear-gradient(90deg, #e63946, #457b9d, #1d3557); border: none;">
   <p>© 2025 <a href="https://gunjanjaswal.me">Gunjan Jaswal</a> • Made with ❤️ for education</p>
   <p>
     <a href="https://gunjanjaswal.me">Website</a> •
