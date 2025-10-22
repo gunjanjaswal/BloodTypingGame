@@ -1,23 +1,45 @@
 <div align="center">
 
+<img src="https://i.imgur.com/JyJRXIl.png" alt="Blood Typing Game Logo" width="150" height="150">
+
 # 🩸 Blood Typing Game 🩸
 
-![Blood Typing Game](images/blood-compatibility-chart.png)
+<p align="center">
+  <img src="images/blood-compatibility-chart.svg" alt="Blood Typing Game" width="600">
+</p>
 
-[![Website](https://img.shields.io/badge/Website-gunjanjaswal.me-blue?style=for-the-badge&logo=firefox-browser)](https://gunjanjaswal.me)
-[![GitHub](https://img.shields.io/badge/GitHub-BloodTypingGame-181717?style=for-the-badge&logo=github)](https://github.com/gunjanjaswal/BloodTypingGame)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=license)](LICENSE)
-[![Buy Me A Coffee](https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-yellow?style=for-the-badge&logo=buy-me-a-coffee)](https://www.buymeacoffee.com/gunjanjaswal)
+[![Website](https://img.shields.io/badge/Website-gunjanjaswal.me-4285F4?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://gunjanjaswal.me)
+[![GitHub](https://img.shields.io/badge/GitHub-BloodTypingGame-171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gunjanjaswal/BloodTypingGame)
+[![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
+[![Buy Me A Coffee](https://img.shields.io/badge/Support-Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/gunjanjaswal)
 
-*An interactive educational web game about blood types, transfusions, and medical science*
+<p align="center">
+  <i>An interactive educational web game about blood types, transfusions, and medical science</i>
+</p>
+
+<p align="center">
+  <a href="#-overview">Overview</a> •
+  <a href="#-play-the-game">Play</a> •
+  <a href="#-educational-content">Learn</a> •
+  <a href="#-getting-started">Install</a> •
+  <a href="#-author">Author</a>
+</p>
 
 </div>
 
-## 📋 Overview
+<h2 align="center">
+  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <br>
+  📋 Overview
+</h2>
 
 An interactive educational web game that teaches users about blood types, blood typing procedures, and safe blood transfusions. This project is inspired by the 1930 Nobel Prize in Physiology or Medicine awarded to Karl Landsteiner for the discovery of human blood groups.
 
-## 🎮 Play the Game
+<h2 align="center">
+  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <br>
+  🎮 Play the Game
+</h2>
 
 The Blood Typing Game challenges players to:
 1. Determine patients' blood types through simulated blood tests
@@ -25,7 +47,11 @@ The Blood Typing Game challenges players to:
 3. Save lives by performing correct transfusions
 4. Learn about blood type compatibility and the science behind it
 
-## 🧪 Educational Content
+<h2 align="center">
+  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <br>
+  🧪 Educational Content
+</h2>
 
 The game covers:
 
@@ -47,7 +73,11 @@ The game covers:
   - The 1930 Nobel Prize in Physiology or Medicine
   - Impact on modern medicine and transfusion safety
 
-## 🛠️ Technical Details
+<h2 align="center">
+  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <br>
+  🔧️ Technical Details
+</h2>
 
 ### 💻 Technologies Used
 - ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) Semantic markup for structure
@@ -78,7 +108,11 @@ BloodTypingGame/
 └── README.md
 ```
 
-## 🚀 Getting Started
+<h2 align="center">
+  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <br>
+  🚀 Getting Started
+</h2>
 
 ### 💻 Prerequisites
 - ![Chrome](https://img.shields.io/badge/Chrome-4285F4?style=flat-square&logo=googlechrome&logoColor=white) ![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=flat-square&logo=firefoxbrowser&logoColor=white) ![Safari](https://img.shields.io/badge/Safari-000000?style=flat-square&logo=safari&logoColor=white) ![Edge](https://img.shields.io/badge/Edge-0078D7?style=flat-square&logo=microsoftedge&logoColor=white) A modern web browser
@@ -105,7 +139,11 @@ npm start
 
 > 💡 **Tip:** For the best experience, use a modern browser with JavaScript enabled.
 
-## 🎯 How to Play
+<h2 align="center">
+  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <br>
+  🎯 How to Play
+</h2>
 
 1. 🔹 **Start the Game**: Click the "Start Game" button on the main menu
 2. 🔹 **For Each Patient**:
@@ -118,7 +156,11 @@ npm start
 
 > ⚠️ **Warning**: Incorrect blood type matching can cause transfusion reactions!
 
-## 📚 Learning Outcomes
+<h2 align="center">
+  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <br>
+  📚 Learning Outcomes
+</h2>
 
 Players will gain valuable knowledge about:
 
@@ -128,7 +170,11 @@ Players will gain valuable knowledge about:
 - 📜 **Medical History**: Discover the Nobel Prize-winning work of Karl Landsteiner
 - 🎓 **Clinical Applications**: See how blood typing knowledge saves lives in medical settings
 
-## 🔮 Future Enhancements
+<h2 align="center">
+  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <br>
+  🔮 Future Enhancements
+</h2>
 
 Exciting features planned for future releases:
 
@@ -139,36 +185,113 @@ Exciting features planned for future releases:
 - 🎖 **Achievements**: Comprehensive achievement and badge system
 - 📊 **Statistics**: Detailed performance tracking and learning analytics
 
-## 👨‍💻 Author
+<h2 align="center">
+  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <br>
+  👨‍💻 Author
+</h2>
 
-<img src="https://github.com/gunjanjaswal.png" width="100" height="100" style="border-radius:50%;"/>
+<div align="center">
+  <img src="https://github.com/gunjanjaswal.png" width="120" height="120" style="border-radius:50%; border: 3px solid #E63946;"/>
+  
+  <h3>Gunjan Jaswal</h3>
+  
+  <p>
+    <a href="https://gunjanjaswal.me" target="_blank">
+      <img src="https://img.shields.io/badge/Website-gunjanjaswal.me-4285F4?style=for-the-badge&logo=firefox-browser&logoColor=white" alt="Website"/>
+    </a>
+    <a href="https://github.com/gunjanjaswal" target="_blank">
+      <img src="https://img.shields.io/badge/GitHub-gunjanjaswal-171515?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    </a>
+    <a href="mailto:hello@gunjanjaswal.me">
+      <img src="https://img.shields.io/badge/Email-hello@gunjanjaswal.me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    </a>
+  </p>
+</div>
 
-**Gunjan Jaswal**
-- 🌐 Website: [gunjanjaswal.me](https://gunjanjaswal.me)
-- 👨‍💻 GitHub: [gunjanjaswal](https://github.com/gunjanjaswal)
-- 📧 Email: [hello@gunjanjaswal.me](mailto:hello@gunjanjaswal.me)
+<h2 align="center">
+  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <br>
+  ☕ Support This Project
+</h2>
 
-## ☕ Support This Project
+<div align="center">
+  <p>If you find this project helpful or educational, consider supporting its development:</p>
+  
+  <a href="https://www.buymeacoffee.com/gunjanjaswal" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60" width="217">
+  </a>
+  
+  <p><i>Your support helps maintain and improve this educational resource!</i></p>
+</div>
 
-If you find this project helpful or educational, consider supporting its development:
+<h2 align="center">
+  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <br>
+  📄 License
+</h2>
 
-<a href="https://www.buymeacoffee.com/gunjanjaswal" target="_blank">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50" width="180">
-</a>
+<div align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="MIT License">
+  </a>
+  
+  <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
+</div>
 
-## 📄 License
+<h2 align="center">
+  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <br>
+  🙏 Acknowledgements
+</h2>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<div align="center">
+  <p>
+    <span>🌟 Directly inspired by <a href="https://educationalgames.nobelprize.org/educational/medicine/bloodtypinggame/">The Nobel Prize Blood Typing Game</a></span><br>
+    <span>🧬 Based on Karl Landsteiner's Nobel Prize-winning work in blood group discovery</span><br>
+    <span>🎓 Created for educational purposes to promote understanding of blood types and transfusions</span><br>
+    <span>💜 Special thanks to the medical and scientific community for their ongoing research</span>
+  </p>
+</div>
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+<h2 align="center">
+  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <br>
+  🔍 Keywords
+</h2>
 
-## 🙏 Acknowledgements
+<div align="center">
 
-- 🌟 Directly inspired by [The Nobel Prize Blood Typing Game](https://educationalgames.nobelprize.org/educational/medicine/bloodtypinggame/)
-- 🧬 Based on Karl Landsteiner's Nobel Prize-winning work in blood group discovery
-- 🎓 Created for educational purposes to promote understanding of blood types and transfusions
-- 💜 Special thanks to the medical and scientific community for their ongoing research
+![](https://img.shields.io/badge/blood_typing-E63946?style=for-the-badge)
+![](https://img.shields.io/badge/educational_game-457B9D?style=for-the-badge)
+![](https://img.shields.io/badge/medical_education-1D3557?style=for-the-badge)
+![](https://img.shields.io/badge/hematology-F1FAEE?style=for-the-badge&color=E63946)
+![](https://img.shields.io/badge/blood_transfusion-A8DADC?style=for-the-badge)
+![](https://img.shields.io/badge/ABO_blood_groups-457B9D?style=for-the-badge)
+![](https://img.shields.io/badge/Rh_factor-1D3557?style=for-the-badge)
+![](https://img.shields.io/badge/Karl_Landsteiner-F1FAEE?style=for-the-badge&color=E63946)
+![](https://img.shields.io/badge/Nobel_Prize-A8DADC?style=for-the-badge)
+![](https://img.shields.io/badge/interactive_learning-457B9D?style=for-the-badge)
+![](https://img.shields.io/badge/web_game-1D3557?style=for-the-badge)
+![](https://img.shields.io/badge/JavaScript_game-F1FAEE?style=for-the-badge&color=F7DF1E)
+![](https://img.shields.io/badge/medical_simulation-A8DADC?style=for-the-badge)
+![](https://img.shields.io/badge/blood_compatibility-457B9D?style=for-the-badge)
+![](https://img.shields.io/badge/blood_types-1D3557?style=for-the-badge)
+![](https://img.shields.io/badge/medical_science-F1FAEE?style=for-the-badge&color=E63946)
+![](https://img.shields.io/badge/educational_technology-A8DADC?style=for-the-badge)
+![](https://img.shields.io/badge/e--learning-457B9D?style=for-the-badge)
+![](https://img.shields.io/badge/STEM_education-1D3557?style=for-the-badge)
+![](https://img.shields.io/badge/healthcare_education-F1FAEE?style=for-the-badge&color=E63946)
 
-## 🔍 Keywords
+</div>
 
-`blood typing` `educational game` `medical education` `hematology` `blood transfusion` `ABO blood groups` `Rh factor` `Karl Landsteiner` `Nobel Prize` `interactive learning` `web game` `JavaScript game` `medical simulation` `blood compatibility` `blood types` `medical science` `educational technology` `e-learning` `STEM education` `healthcare education`
+<div align="center">
+  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" width="600" height="16">
+  <p>© 2025 <a href="https://gunjanjaswal.me">Gunjan Jaswal</a> • Made with ❤️ for education</p>
+  <p>
+    <a href="https://gunjanjaswal.me">Website</a> •
+    <a href="https://github.com/gunjanjaswal">GitHub</a> •
+    <a href="mailto:hello@gunjanjaswal.me">Contact</a> •
+    <a href="https://www.buymeacoffee.com/gunjanjaswal">Support</a>
+  </p>
+</div>
