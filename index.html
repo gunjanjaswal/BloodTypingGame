@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Blood Typing Game - Learn About Blood Types & Transfusions</title>
+    <meta name="title" content="Blood Typing Game - Learn About Blood Types & Transfusions">
+    <meta name="description" content="Interactive educational game about blood types, blood typing, and safe blood transfusions. Based on Karl Landsteiner's Nobel Prize-winning discovery of human blood groups.">
+    <meta name="keywords" content="blood typing, blood types, blood transfusion, educational game, ABO blood groups, Rh factor, Karl Landsteiner, Nobel Prize, medical education">
+    <meta name="author" content="Gunjan Jaswal">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <link rel="canonical" href="https://bloodtyping.games/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bloodtyping.games/">
+    <meta property="og:title" content="Blood Typing Game - Learn About Blood Types & Transfusions">
+    <meta property="og:description" content="Interactive educational game about blood types, blood typing, and safe blood transfusions. Based on Karl Landsteiner's Nobel Prize-winning discovery.">
+    <meta property="og:image" content="https://bloodtyping.games/images/blood-typing-game-social.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://bloodtyping.games/">
+    <meta property="twitter:title" content="Blood Typing Game - Learn About Blood Types & Transfusions">
+    <meta property="twitter:description" content="Interactive educational game about blood types, blood typing, and safe blood transfusions. Based on Nobel Prize-winning research.">
+    <meta property="twitter:image" content="https://bloodtyping.games/images/blood-typing-game-social.png">
+    
+    <!-- Mobile App Meta -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Blood Typing Game">
+    <meta name="application-name" content="Blood Typing Game">
+    <meta name="msapplication-TileColor" content="#dc3545">
+    <meta name="theme-color" content="#dc3545">
+    
+    <!-- Blood Drop Favicon -->
+    <link rel="icon" href="favicon/blood-drop.svg" type="image/svg+xml">
+    <link rel="alternate icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="favicon/favicon.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css">
+    
+    <!-- Structured Data - JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Blood Typing Game",
+      "url": "https://bloodtyping.games/",
+      "description": "Interactive educational game about blood types, blood typing, and safe blood transfusions based on Nobel Prize-winning research.",
+      "applicationCategory": "EducationalApplication, Game",
+      "operatingSystem": "Web Browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Gunjan Jaswal"
+      },
+      "audience": {
+        "@type": "EducationalAudience",
+        "educationalRole": "student"
+      },
+      "educationalUse": "learning activity",
+      "learningResourceType": "game",
+      "teaches": ["blood types", "blood typing", "blood transfusions", "ABO blood group system", "Rh factor"],
+      "about": {
+        "@type": "Thing",
+        "name": "Blood Types and Transfusions",
+        "description": "Educational content about human blood groups, blood typing procedures, and safe blood transfusions."
+      },
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "The Nobel Prize Blood Typing Game",
+        "url": "https://educationalgames.nobelprize.org/educational/medicine/bloodtypinggame/"
+      }
+    }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header class="text-center py-4">
+            <h1 class="display-4">Blood Typing Game</h1>
+            <p class="lead">Learn about blood types and save lives through safe blood transfusions</p>
+        </header>
+
+        <div id="main-menu" class="text-center">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2>Welcome to the Blood Typing Game!</h2>
+                            <p>This educational game is based on the 1930 Nobel Prize in Physiology or Medicine, awarded to Karl Landsteiner for the discovery of human blood groups.</p>
+                            <p>Your challenge is to save patients in urgent need of blood transfusions by determining their blood type and administering safe transfusions.</p>
+                            <button id="start-game" class="btn btn-primary btn-lg">Start Game</button>
+                            <button id="learn-more" class="btn btn-secondary btn-lg ms-2">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="game-screen" class="d-none">
+            <div class="game-container">
+                <button id="back-to-menu-game" class="back-button">
+                    <i class="bi bi-arrow-left"></i>
+                </button>
+                
+                <div class="instructions-panel">
+                    <h3>How to Play</h3>
+                    <ol>
+                        <li>First, perform blood tests using the Anti-A, Anti-B, and Anti-Rh serums to determine the patient's blood type.</li>
+                        <li>Watch for reactions: <strong>Agglutination</strong> (clumping) indicates the presence of the corresponding antigen.</li>
+                        <li>Select the correct blood type based on your test results.</li>
+                        <li>Choose a compatible blood bag for transfusion.</li>
+                        <li>Click "Perform Transfusion" to save the patient.</li>
+                    </ol>
+                    <p class="mb-0"><small>Remember: Giving incompatible blood can cause a dangerous transfusion reaction!</small></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-header bg-primary text-white">
+                            <h3>Patient Information</h3>
+                        </div>
+                        <div class="card-body">
+                            <div id="patient-info">
+                                <p>Patient #<span id="patient-number">1</span></p>
+                                <p>Status: <span id="patient-status" class="text-danger">Critical - Needs immediate blood transfusion</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card mb-3">
+                        <div class="card-header bg-primary text-white">
+                            <h3>Blood Typing</h3>
+                        </div>
+                        <div class="card-body">
+                            <div id="blood-typing-area">
+                                <p>Determine the patient's blood type:</p>
+                                <div class="blood-test-container">
+                                    <div class="blood-test" id="test-anti-a">
+                                        <p>Anti-A Serum</p>
+                                        <div class="blood-sample"></div>
+                                        <button class="btn btn-sm btn-outline-primary test-btn" data-test="anti-a">Test</button>
+                                    </div>
+                                    <div class="blood-test" id="test-anti-b">
+                                        <p>Anti-B Serum</p>
+                                        <div class="blood-sample"></div>
+                                        <button class="btn btn-sm btn-outline-primary test-btn" data-test="anti-b">Test</button>
+                                    </div>
+                                    <div class="blood-test" id="test-anti-rh">
+                                        <p>Anti-Rh Serum</p>
+                                        <div class="blood-sample"></div>
+                                        <button class="btn btn-sm btn-outline-primary test-btn" data-test="anti-rh">Test</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="mt-3">
+                                <p>Select blood type:</p>
+                                <div class="blood-type-selection">
+                                    <div class="btn-group" role="group">
+                                        <input type="radio" class="btn-check" name="blood-group" id="blood-a-pos" value="A+">
+                                        <label class="btn btn-outline-danger" for="blood-a-pos">A+</label>
+                                        
+                                        <input type="radio" class="btn-check" name="blood-group" id="blood-a-neg" value="A-">
+                                        <label class="btn btn-outline-danger" for="blood-a-neg">A-</label>
+                                        
+                                        <input type="radio" class="btn-check" name="blood-group" id="blood-b-pos" value="B+">
+                                        <label class="btn btn-outline-danger" for="blood-b-pos">B+</label>
+                                        
+                                        <input type="radio" class="btn-check" name="blood-group" id="blood-b-neg" value="B-">
+                                        <label class="btn btn-outline-danger" for="blood-b-neg">B-</label>
+                                    </div>
+                                </div>
+                                <div class="blood-type-selection mt-2">
+                                    <div class="btn-group" role="group">
+                                        <input type="radio" class="btn-check" name="blood-group" id="blood-ab-pos" value="AB+">
+                                        <label class="btn btn-outline-danger" for="blood-ab-pos">AB+</label>
+                                        
+                                        <input type="radio" class="btn-check" name="blood-group" id="blood-ab-neg" value="AB-">
+                                        <label class="btn btn-outline-danger" for="blood-ab-neg">AB-</label>
+                                        
+                                        <input type="radio" class="btn-check" name="blood-group" id="blood-o-pos" value="O+">
+                                        <label class="btn btn-outline-danger" for="blood-o-pos">O+</label>
+                                        
+                                        <input type="radio" class="btn-check" name="blood-group" id="blood-o-neg" value="O-">
+                                        <label class="btn btn-outline-danger" for="blood-o-neg">O-</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-8">
+                    <div class="card mb-3">
+                        <div class="card-header bg-primary text-white">
+                            <h3>Blood Transfusion</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div id="available-blood">
+                                        <h4>Available Blood Bags</h4>
+                                        <div class="blood-bag-container">
+                                            <div class="blood-bag" data-type="A+">A+</div>
+                                            <div class="blood-bag" data-type="A-">A-</div>
+                                            <div class="blood-bag" data-type="B+">B+</div>
+                                            <div class="blood-bag" data-type="B-">B-</div>
+                                            <div class="blood-bag" data-type="AB+">AB+</div>
+                                            <div class="blood-bag" data-type="AB-">AB-</div>
+                                            <div class="blood-bag" data-type="O+">O+</div>
+                                            <div class="blood-bag" data-type="O-">O-</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div id="transfusion-area">
+                                        <h4>Transfusion</h4>
+                                        <div id="selected-blood-bag">
+                                            <p>Selected blood: <span id="selected-blood-type">None</span></p>
+                                        </div>
+                                        <div id="patient-animation">
+                                            <div class="patient-figure"></div>
+                                        </div>
+                                        <button id="perform-transfusion" class="btn btn-danger mt-3" disabled>Perform Transfusion</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card mb-3">
+                        <div class="card-header bg-primary text-white">
+                            <h3>Game Progress</h3>
+                        </div>
+                        <div class="card-body">
+                            <div id="game-progress">
+                                <p>Patients saved: <span id="patients-saved">0</span>/5</p>
+                                <div class="progress">
+                                    <div id="progress-bar" class="progress-bar bg-success" role="progressbar" style="width: 0%"></div>
+                                </div>
+                                <div id="blood-drops" class="mt-2">
+                                    <span class="blood-drop"></span>
+                                    <span class="blood-drop"></span>
+                                    <span class="blood-drop"></span>
+                                    <span class="blood-drop"></span>
+                                    <span class="blood-drop"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="learn-screen" class="d-none">
+            <div class="game-container">
+                <button id="back-to-menu-learn" class="back-button">
+                    <i class="bi bi-arrow-left"></i>
+                </button>
+            </div>
+            <div class="card mb-4">
+                <div class="card-header bg-info text-white">
+                    <h2>About Blood Types</h2>
+                </div>
+                <div class="card-body">
+                    <h3>The ABO and Rh Blood Group Systems</h3>
+                    <p>Human blood is categorized into different types based on the presence or absence of certain antigens on the surface of red blood cells and antibodies in the blood plasma.</p>
+                    
+                    <h4>ABO System</h4>
+                    <p>The ABO system classifies blood into four main types:</p>
+                    <ul>
+                        <li><strong>Type A:</strong> Has A antigens on red blood cells and B antibodies in plasma</li>
+                        <li><strong>Type B:</strong> Has B antigens on red blood cells and A antibodies in plasma</li>
+                        <li><strong>Type AB:</strong> Has both A and B antigens on red blood cells and no A or B antibodies in plasma</li>
+                        <li><strong>Type O:</strong> Has neither A nor B antigens on red blood cells but has both A and B antibodies in plasma</li>
+                    </ul>
+                    
+                    <h4>Rh System</h4>
+                    <p>The Rh system is based on the presence or absence of the Rh D antigen:</p>
+                    <ul>
+                        <li><strong>Rh+ (positive):</strong> Has the Rh D antigen on red blood cells</li>
+                        <li><strong>Rh- (negative):</strong> Does not have the Rh D antigen on red blood cells</li>
+                    </ul>
+                    
+                    <h3>Blood Transfusion Compatibility</h3>
+                    <p>For safe blood transfusions, the donor's blood must be compatible with the recipient's blood. If incompatible blood is transfused, the recipient's antibodies can attack the donor's red blood cells, causing a potentially fatal transfusion reaction.</p>
+                    
+                    <h4>Transfusion Rules:</h4>
+                    <ul>
+                        <li>Type O- is the universal donor (can donate to any blood type)</li>
+                        <li>Type AB+ is the universal recipient (can receive from any blood type)</li>
+                        <li>Recipients can receive blood from their own type or from compatible types</li>
+                        <li>The recipient's antibodies must not react with the donor's antigens</li>
+                    </ul>
+                    
+                    <div class="text-center">
+                        <img src="images/blood-compatibility-chart.svg" alt="Blood Compatibility Chart" class="img-fluid mt-3 mb-3">
+                    </div>
+                    
+                    <h3>The Nobel Prize Connection</h3>
+                    <p>In 1930, Karl Landsteiner was awarded the Nobel Prize in Physiology or Medicine for his discovery of human blood groups in 1901. This discovery revolutionized medicine by making blood transfusions safer and saving countless lives.</p>
+                    <p>Later, in 1940, Landsteiner was also part of discovering the Rh blood group system, further advancing our understanding of blood compatibility.</p>
+                    
+                    <div class="text-center mt-4">
+                        <button id="back-to-menu" class="btn btn-primary btn-lg">Back to Home</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="results-screen" class="d-none text-center">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    <h2>Game Results</h2>
+                </div>
+                <div class="card-body">
+                    <h3>Your Score: <span id="final-score">0</span>/5</h3>
+                    <div id="final-blood-drops" class="mt-3 mb-4">
+                        <span class="blood-drop"></span>
+                        <span class="blood-drop"></span>
+                        <span class="blood-drop"></span>
+                        <span class="blood-drop"></span>
+                        <span class="blood-drop"></span>
+                    </div>
+                    <p id="results-message">You've completed the Blood Typing Game!</p>
+                    <div class="mt-4">
+                        <button id="play-again" class="btn btn-primary btn-lg">Play Again</button>
+                        <button id="learn-more-results" class="btn btn-secondary btn-lg ms-2">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center py-4 mt-5 bg-light">
+        <p>This educational game is inspired by the 1930 Nobel Prize in Physiology or Medicine awarded to Karl Landsteiner for the discovery of human blood groups.</p>
+        <div class="mt-2">
+            <p><strong>Inspired by:</strong> <a href="https://educationalgames.nobelprize.org/educational/medicine/bloodtypinggame/" target="_blank">The Nobel Prize Blood Typing Game</a></p>
+        </div>
+        <div class="mt-3">
+            <a href="https://www.buymeacoffee.com/gunjanjaswal" target="_blank" class="btn btn-warning mb-2">
+                <i class="bi bi-cup-hot"></i> Buy Me a Coffee
+            </a>
+        </div>
+        <div class="mt-2">
+            <p><strong>Contact:</strong> <a href="mailto:hello@gunjanjaswal.me">hello@gunjanjaswal.me</a></p>
+            <p><a href="https://github.com/gunjanjaswal" target="_blank"><i class="bi bi-github"></i> GitHub</a> | <a href="https://gunjanjaswal.me" target="_blank"><i class="bi bi-globe"></i> Website</a></p>
+        </div>
+        <p><small>&copy; 2025 Blood Typing Game. Created by Gunjan Jaswaal for educational purposes.</small></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>

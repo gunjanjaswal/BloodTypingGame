@@ -1,0 +1,845 @@
+/* Modern UI with Custom Design System */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@700;800&display=swap');
+
+:root {
+    /* Color System */
+    --color-bg: #f8f9fc;
+    --color-bg-alt: #ffffff;
+    --color-text: #1a1c2a;
+    --color-text-secondary: #4a5568;
+    --color-primary: #e63946;
+    --color-primary-dark: #c1121f;
+    --color-primary-light: #ffccd5;
+    --color-secondary: #457b9d;
+    --color-secondary-light: #a8dadc;
+    --color-accent: #1d3557;
+    --color-success: #2ecc71;
+    --color-warning: #f39c12;
+    --color-danger: #e74c3c;
+    
+    /* Spacing System */
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+    --space-xxl: 3rem;
+    
+    /* Border Radius */
+    --radius-sm: 0.25rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 1rem;
+    --radius-xl: 1.5rem;
+    --radius-full: 9999px;
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+    
+    /* Game-specific */
+    --pixel-size: 4px;
+    --blood-red: var(--color-primary);
+    --blood-dark: var(--color-primary-dark);
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: linear-gradient(135deg, var(--color-bg) 0%, var(--color-bg-alt) 100%);
+    background-attachment: fixed;
+    position: relative;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('data:image/svg+xml;utf8,<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="1" fill="%23e6394620"/></svg>');
+    opacity: 0.5;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 var(--space-lg);
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: var(--space-xl);
+    padding: var(--space-xl) 0;
+    position: relative;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--color-primary-light), transparent);
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--color-accent);
+}
+
+.display-4 {
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: var(--color-accent);
+    margin-bottom: var(--space-md);
+    position: relative;
+    display: inline-block;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.display-4::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+    border-radius: var(--radius-full);
+}
+
+/* Modern Card Styling */
+.card {
+    border: none;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    margin-bottom: var(--space-xl);
+    background-color: var(--color-bg-alt);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.card-header {
+    border-top-left-radius: var(--radius-lg);
+    border-top-right-radius: var(--radius-lg);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    padding: var(--space-lg) var(--space-xl);
+    background-color: rgba(0,0,0,0.02);
+    position: relative;
+}
+
+.card-header h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: var(--color-accent);
+    display: flex;
+    align-items: center;
+}
+
+.card-header h3::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    margin-right: var(--space-sm);
+}
+
+.card-body {
+    padding: var(--space-xl);
+}
+
+/* Blood Typing Area */
+.blood-test-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: var(--space-lg);
+    gap: var(--space-md);
+}
+
+.blood-test {
+    text-align: center;
+    flex: 1;
+    padding: var(--space-lg);
+    border-radius: var(--radius-md);
+    background-color: var(--color-bg-alt);
+    box-shadow: var(--shadow-sm);
+    position: relative;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+
+.blood-test::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--color-secondary-light);
+}
+
+.blood-test:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+}
+
+.blood-test p {
+    font-weight: 500;
+    color: var(--color-accent);
+    margin-bottom: var(--space-md);
+}
+
+.blood-sample {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #f8d7da;
+    margin: var(--space-md) auto;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1), 0 2px 8px rgba(0,0,0,0.06);
+    overflow: hidden;
+}
+
+.blood-sample::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    width: 30%;
+    height: 30%;
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 50%;
+    filter: blur(2px);
+}
+
+.blood-sample.agglutination {
+    background-color: var(--color-primary);
+    transform: scale(1.05);
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1), 0 4px 12px rgba(230, 57, 70, 0.3);
+    animation: pulse-agglutination 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes pulse-agglutination {
+    0% { box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1), 0 4px 12px rgba(230, 57, 70, 0.3); }
+    100% { box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1), 0 4px 20px rgba(230, 57, 70, 0.6); }
+}
+
+.blood-sample.agglutination::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle at 30% 30%, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.blood-sample.no-reaction {
+    background-color: #f8d7da;
+    transform: scale(1);
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1), 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.test-btn {
+    margin-top: var(--space-sm);
+    background-color: var(--color-secondary);
+    color: white;
+    border: none;
+    border-radius: var(--radius-full);
+    padding: var(--space-sm) var(--space-lg);
+    font-weight: 500;
+    transition: all 0.2s ease;
+    box-shadow: var(--shadow-sm);
+}
+
+.test-btn:hover {
+    background-color: var(--color-accent);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.test-btn:disabled {
+    background-color: #cbd5e0;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Blood Bag Styles */
+.blood-bag-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+    margin-top: var(--space-lg);
+}
+
+.blood-bag {
+    width: 60px;
+    height: 90px;
+    background-color: #f8d7da;
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--color-primary);
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+}
+
+.blood-bag::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 12px;
+    background-color: var(--color-primary-light);
+    border-radius: 4px 4px 0 0;
+    z-index: -1;
+}
+
+.blood-bag::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(to bottom, transparent, rgba(255,204,213,0.7));
+    z-index: -1;
+}
+
+.blood-bag:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: var(--shadow-md);
+}
+
+.blood-bag.selected {
+    background-color: var(--color-primary);
+    color: white;
+    transform: translateY(-4px) scale(1.1);
+    box-shadow: 0 8px 20px rgba(230, 57, 70, 0.4);
+    animation: blood-bag-pulse 1.5s ease-in-out infinite alternate;
+}
+
+.blood-bag.selected::before {
+    background-color: var(--color-primary-dark);
+}
+
+.blood-bag.selected::after {
+    background: linear-gradient(to bottom, transparent, rgba(193, 18, 31, 0.4));
+}
+
+@keyframes blood-bag-pulse {
+    0% { box-shadow: 0 8px 20px rgba(230, 57, 70, 0.4); }
+    100% { box-shadow: 0 12px 28px rgba(230, 57, 70, 0.7); }
+}
+
+/* Patient Animation - Modern Style */
+.patient-figure {
+    width: 80px;
+    height: 120px;
+    background-color: #6c757d;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 50% 50% 0 0;
+    box-shadow: var(--shadow-md);
+    transition: all 0.3s ease;
+}
+
+.patient-figure::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #f8f9fa;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+}
+
+.patient-figure::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    width: 50px;
+    height: 60px;
+    background-color: #5a6268;
+    border-radius: 10px 10px 0 0;
+}
+
+.patient-figure.reaction {
+    animation: patient-reaction 0.5s ease-in-out infinite alternate;
+}
+
+.patient-figure.success {
+    animation: patient-success 1s ease-in-out forwards;
+}
+
+@keyframes patient-reaction {
+    0% { transform: translateX(-4px) rotate(-2deg); background-color: var(--color-danger); }
+    100% { transform: translateX(4px) rotate(2deg); background-color: #6c757d; }
+}
+
+@keyframes patient-success {
+    0% { background-color: #6c757d; transform: scale(1); }
+    50% { background-color: var(--color-success); transform: scale(1.05); }
+    100% { background-color: #6c757d; transform: scale(1); }
+}
+
+/* Blood Drops - Modern Style */
+.blood-drop {
+    display: inline-block;
+    width: 20px;
+    height: 28px;
+    margin: 0 8px;
+    opacity: 0.3;
+    transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    background-color: var(--color-primary-light);
+    border-radius: 50% 50% 50% 5px;
+    transform: rotate(45deg) scale(0.9);
+    position: relative;
+    box-shadow: var(--shadow-sm);
+}
+
+.blood-drop::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 6px;
+    height: 6px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+}
+
+.blood-drop.active {
+    opacity: 1;
+    transform: rotate(45deg) scale(1.1);
+    background-color: var(--color-primary);
+    box-shadow: 0 3px 10px rgba(230, 57, 70, 0.4);
+    animation: modern-drop-pulse 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes modern-drop-pulse {
+    0% { transform: rotate(45deg) scale(1.1); box-shadow: 0 3px 10px rgba(230, 57, 70, 0.4); }
+    100% { transform: rotate(45deg) scale(1.2); box-shadow: 0 5px 15px rgba(230, 57, 70, 0.6); }
+}
+
+#blood-drops, #final-blood-drops {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--space-md);
+}
+
+/* Game Progress - Modern Style */
+.progress {
+    height: 8px;
+    border-radius: var(--radius-full);
+    background-color: rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin: var(--space-md) 0;
+}
+
+.progress-bar {
+    transition: width 0.5s cubic-bezier(0.65, 0, 0.35, 1);
+    background-image: linear-gradient(90deg, var(--color-secondary-light), var(--color-secondary));
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Modern Buttons */
+.btn {
+    border-radius: var(--radius-full);
+    padding: var(--space-sm) var(--space-xl);
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    border: none;
+    box-shadow: var(--shadow-sm);
+    position: relative;
+    overflow: hidden;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.btn:hover::before {
+    opacity: 1;
+}
+
+.btn-primary {
+    background-color: var(--color-secondary);
+    color: white;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: var(--color-accent);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+}
+
+.btn-secondary {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: var(--color-text);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn-secondary:hover, .btn-secondary:focus {
+    background-color: rgba(0, 0, 0, 0.08);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-sm);
+}
+
+.btn-danger {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.btn-danger:hover, .btn-danger:focus {
+    background-color: var(--color-primary-dark);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(230, 57, 70, 0.3);
+}
+
+.btn-lg {
+    padding: var(--space-md) var(--space-xxl);
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+/* Game Action Buttons - Override */
+.test-btn, #perform-transfusion {
+    font-family: 'Inter', sans-serif;
+    border-radius: var(--radius-md);
+    transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+#perform-transfusion {
+    padding: var(--space-md) var(--space-xl);
+    background-color: var(--color-primary);
+    position: relative;
+    overflow: hidden;
+}
+
+#perform-transfusion::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+#perform-transfusion:hover::after {
+    opacity: 1;
+    animation: pulse-light 2s ease-out infinite;
+}
+
+@keyframes pulse-light {
+    0% { transform: scale(0.8); opacity: 0.5; }
+    100% { transform: scale(1.2); opacity: 0; }
+}
+
+/* Back Button */
+.back-button {
+    position: absolute;
+    top: var(--space-md);
+    left: var(--space-md);
+    z-index: 100;
+    background-color: var(--color-secondary);
+    border: none;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow-md);
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    color: white;
+}
+
+.back-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, rgba(69, 123, 157, 0.1), transparent);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: var(--color-accent);
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-3px) scale(1.05);
+}
+
+.back-button:hover::before {
+    opacity: 1;
+}
+
+.back-button i {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+.back-button:hover i {
+    transform: translateX(-2px);
+}
+
+/* Animations */
+.animate__animated {
+    animation-duration: 0.8s;
+}
+
+/* Transfusion Animation */
+.transfusion-line {
+    height: 3px;
+    background-color: var(--color-primary);
+    position: absolute;
+    transform-origin: left;
+    animation: transfusion 2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    border-radius: var(--radius-full);
+    box-shadow: 0 0 8px rgba(230, 57, 70, 0.5);
+    overflow: hidden;
+}
+
+.transfusion-line::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    animation: shine 1.5s linear infinite;
+}
+
+@keyframes transfusion {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
+
+@keyframes shine {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+/* Instructions Panel */
+.instructions-panel {
+    background-color: var(--color-bg-alt);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg) var(--space-xl);
+    margin-bottom: var(--space-xl);
+    box-shadow: var(--shadow-md);
+    border-left: 4px solid var(--color-secondary);
+}
+
+.instructions-panel h3 {
+    color: var(--color-accent);
+    margin-bottom: var(--space-md);
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.instructions-panel h3::before {
+    content: '\f05a';
+    font-family: 'bootstrap-icons';
+    margin-right: var(--space-sm);
+    color: var(--color-secondary);
+}
+
+.instructions-panel ol {
+    padding-left: var(--space-xl);
+    counter-reset: inst-counter;
+}
+
+.instructions-panel ol li {
+    margin-bottom: var(--space-sm);
+    position: relative;
+    padding-left: var(--space-sm);
+}
+
+.instructions-panel ol li::marker {
+    color: var(--color-secondary);
+    font-weight: 600;
+}
+
+.instructions-panel strong {
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+/* Game Container */
+.game-container {
+    position: relative;
+    padding-top: var(--space-xxl); /* Increase this value from var(--space-xl) to var(--space-xxl) */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .blood-test-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .blood-test {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+    
+    .blood-bag-container {
+        justify-content: center;
+    }
+    
+    .card-header h3 {
+        font-size: 1.2rem;
+    }
+    
+    .back-button {
+        top: 10px;
+        left: 10px;
+        width: 36px;
+        height: 36px;
+    }
+    
+    .display-4 {
+        font-size: 2rem;
+    }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --apple-bg: #1d1d1f;
+        --apple-text: #f5f5f7;
+        --apple-card-bg: rgba(30, 30, 30, 0.8);
+        --apple-border: rgba(255, 255, 255, 0.1);
+    }
+    
+    .card {
+        background-color: var(--apple-card-bg);
+    }
+    
+    .btn-secondary {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: var(--apple-text);
+    }
+    
+    .btn-secondary:hover, .btn-secondary:focus {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+    
+    .back-button {
+        background-color: rgba(50, 50, 50, 0.8);
+    }
+    
+    .back-button:hover {
+        background-color: rgba(60, 60, 60, 0.9);
+    }
+}
+
+/* Learn Screen */
+#learn-screen img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#learn-screen ul {
+    padding-left: 20px;
+}
+
+#learn-screen h3, #learn-screen h4 {
+    margin-top: 1.5rem;
+    color: #0d6efd;
+}
+
+/* Results Screen */
+#results-screen .blood-drop {
+    font-size: 32px;
+}
+/* Ensure all blue headers have white text */
+.card-header.bg-primary,
+.card-header.bg-info,
+.card-header.bg-secondary,
+.card-header.bg-success {
+    color: white;
+}
+
+.card-header.bg-primary h2,
+.card-header.bg-primary h3,
+.card-header.bg-info h2,
+.card-header.bg-info h3,
+.card-header.bg-secondary h2,
+.card-header.bg-secondary h3,
+.card-header.bg-success h2,
+.card-header.bg-success h3 {
+    color: white;
+}

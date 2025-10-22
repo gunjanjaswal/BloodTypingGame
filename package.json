@@ -1,0 +1,19 @@
+{
+  "name": "blood-typing-game",
+  "version": "1.0.0",
+  "description": "Educational game about blood types and transfusions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "education",
+    "game",
+    "blood",
+    "typing",
+    "nobel",
+    "prize"
+  ],
+  "author": "",
+  "license": "MIT"
+}

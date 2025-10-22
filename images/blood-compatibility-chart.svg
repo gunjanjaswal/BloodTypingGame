@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="450" viewBox="0 0 600 450">
+  <!-- Background -->
+  <rect width="600" height="450" fill="#ffffff" />
+  
+  <!-- Title -->
+  <text x="300" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1d3557">Blood Type Compatibility Chart</text>
+  
+  <!-- Table Headers -->
+  <text x="150" y="80" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1d3557">Blood Type</text>
+  <text x="300" y="80" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1d3557">Can Donate To</text>
+  <text x="450" y="80" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1d3557">Can Receive From</text>
+  
+  <!-- Horizontal Lines -->
+  <line x1="50" y1="90" x2="550" y2="90" stroke="#000000" stroke-width="2" />
+  <line x1="50" y1="130" x2="550" y2="130" stroke="#000000" stroke-width="1" />
+  <line x1="50" y1="170" x2="550" y2="170" stroke="#000000" stroke-width="1" />
+  <line x1="50" y1="210" x2="550" y2="210" stroke="#000000" stroke-width="1" />
+  <line x1="50" y1="250" x2="550" y2="250" stroke="#000000" stroke-width="1" />
+  <line x1="50" y1="290" x2="550" y2="290" stroke="#000000" stroke-width="1" />
+  <line x1="50" y1="330" x2="550" y2="330" stroke="#000000" stroke-width="1" />
+  <line x1="50" y1="370" x2="550" y2="370" stroke="#000000" stroke-width="1" />
+  
+  <!-- Vertical Lines -->
+  <line x1="50" y1="90" x2="50" y2="410" stroke="#000000" stroke-width="2" />
+  <line x1="200" y1="90" x2="200" y2="410" stroke="#000000" stroke-width="1" />
+  <line x1="400" y1="90" x2="400" y2="410" stroke="#000000" stroke-width="1" />
+  <line x1="550" y1="90" x2="550" y2="410" stroke="#000000" stroke-width="2" />
+  
+  <!-- Blood Types -->
+  <text x="125" y="115" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#e63946">A+</text>
+  <text x="125" y="155" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#e63946">A-</text>
+  <text x="125" y="195" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#e63946">B+</text>
+  <text x="125" y="235" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#e63946">B-</text>
+  <text x="125" y="275" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#e63946">AB+</text>
+  <text x="125" y="315" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#e63946">AB-</text>
+  <text x="125" y="355" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#e63946">O+</text>
+  <text x="125" y="395" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#e63946">O-</text>
+  
+  <!-- Can Donate To -->
+  <text x="300" y="115" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">A+, AB+</text>
+  <text x="300" y="155" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">A+, A-, AB+, AB-</text>
+  <text x="300" y="195" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">B+, AB+</text>
+  <text x="300" y="235" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">B+, B-, AB+, AB-</text>
+  <text x="300" y="275" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">AB+</text>
+  <text x="300" y="315" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">AB+, AB-</text>
+  <text x="300" y="355" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">O+, A+, B+, AB+</text>
+  <text x="300" y="395" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Everyone</text>
+  
+  <!-- Can Receive From -->
+  <text x="450" y="115" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">A+, A-, O+, O-</text>
+  <text x="450" y="155" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">A-, O-</text>
+  <text x="450" y="195" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">B+, B-, O+, O-</text>
+  <text x="450" y="235" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">B-, O-</text>
+  <text x="450" y="275" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Everyone</text>
+  <text x="450" y="315" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">A-, B-, AB-, O-</text>
+  <text x="450" y="355" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">O+, O-</text>
+  <text x="450" y="395" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">O-</text>
+  
+  <!-- O- Row -->
+  <line x1="50" y1="370" x2="550" y2="370" stroke="#000000" stroke-width="1" />
+  <line x1="50" y1="410" x2="550" y2="410" stroke="#000000" stroke-width="1" />
+  
+  <!-- Legend -->
+  <rect x="150" y="425" width="15" height="15" fill="#e63946" />
+  <text x="175" y="438" font-family="Arial, sans-serif" font-size="12" text-anchor="start">Universal Donor (O-)</text>
+  
+  <rect x="350" y="425" width="15" height="15" fill="#457b9d" />
+  <text x="375" y="438" font-family="Arial, sans-serif" font-size="12" text-anchor="start">Universal Recipient (AB+)</text>
+</svg>
