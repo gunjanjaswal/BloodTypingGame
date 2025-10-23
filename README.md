@@ -8,6 +8,7 @@
   <img src="https://raw.githubusercontent.com/gunjanjaswal/BloodTypingGame/main/images/blood-compatibility-chart.svg" alt="Blood Typing Game" width="600">
 </p>
 
+[![Play Game](https://img.shields.io/badge/Play_Game-bloodtypinggame.com-E63946?style=for-the-badge&logo=internetexplorer&logoColor=white)](https://bloodtypinggame.com)
 [![Website](https://img.shields.io/badge/Website-gunjanjaswal.me-4285F4?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://gunjanjaswal.me)
 [![GitHub](https://img.shields.io/badge/GitHub-BloodTypingGame-171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gunjanjaswal/BloodTypingGame)
 [![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
@@ -18,6 +19,7 @@
 </p>
 
 <p align="center">
+  <a href="https://bloodtypinggame.com/" target="_blank"><strong>🌐 PLAY LIVE</strong></a> •
   <a href="#-overview">Overview</a> •
   <a href="#-play-the-game">Play</a> •
   <a href="#-educational-content">Learn</a> •
@@ -34,6 +36,15 @@
 </h2>
 
 An interactive educational web game that teaches users about blood types, blood typing procedures, and safe blood transfusions. This project is inspired by the 1930 Nobel Prize in Physiology or Medicine awarded to Karl Landsteiner for the discovery of human blood groups.
+
+<div align="center">
+  <h3>🔗 Visit Live Site</h3>
+  <a href="https://bloodtypinggame.com/" target="_blank">
+    <img src="https://img.shields.io/badge/▶️_PLAY_NOW-bloodtypinggame.com-E63946?style=for-the-badge&logo=internetexplorer&logoColor=white" alt="Play Now - bloodtypinggame.com" height="50">
+  </a>
+  <p><strong>https://bloodtypinggame.com/</strong></p>
+  <p><i>Experience the game directly in your browser with no installation required!</i></p>
+</div>
 
 <h2 align="center">
   <hr style="height: 3px; background: linear-gradient(90deg, #e63946, #457b9d, #1d3557); border: none;">
@@ -114,7 +125,13 @@ BloodTypingGame/
   🚀 Getting Started
 </h2>
 
-### 💻 Prerequisites
+### 🌐 Play Online
+
+**Visit the live site: [https://bloodtypinggame.com/](https://bloodtypinggame.com/)**
+
+The game is hosted online and ready to play! No downloads or installation required - just open the link in any modern browser and start learning about blood typing.
+
+### 💻 Prerequisites for Local Development
 - ![Chrome](https://img.shields.io/badge/Chrome-4285F4?style=flat-square&logo=googlechrome&logoColor=white) ![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=flat-square&logo=firefoxbrowser&logoColor=white) ![Safari](https://img.shields.io/badge/Safari-000000?style=flat-square&logo=safari&logoColor=white) ![Edge](https://img.shields.io/badge/Edge-0078D7?style=flat-square&logo=microsoftedge&logoColor=white) A modern web browser
 - ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) (optional, for running the local development server)
 
@@ -262,6 +279,7 @@ Exciting features planned for future releases:
 
 <div align="center">
 
+![](https://img.shields.io/badge/bloodtypinggame.com-E63946?style=for-the-badge)
 ![](https://img.shields.io/badge/blood_typing-E63946?style=for-the-badge)
 ![](https://img.shields.io/badge/educational_game-457B9D?style=for-the-badge)
 ![](https://img.shields.io/badge/medical_education-1D3557?style=for-the-badge)
@@ -289,6 +307,7 @@ Exciting features planned for future releases:
   <hr style="height: 3px; background: linear-gradient(90deg, #e63946, #457b9d, #1d3557); border: none;">
   <p>© 2025 <a href="https://gunjanjaswal.me">Gunjan Jaswal</a> • Made with ❤️ for education</p>
   <p>
+    <a href="https://bloodtypinggame.com">Play Game</a> •
     <a href="https://gunjanjaswal.me">Website</a> •
     <a href="https://github.com/gunjanjaswal">GitHub</a> •
     <a href="mailto:hello@gunjanjaswal.me">Contact</a> •
