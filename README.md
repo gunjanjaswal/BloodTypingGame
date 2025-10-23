@@ -20,12 +20,6 @@
 
 <p align="center">
   <a href="https://bloodtypinggame.com/" target="_blank"><strong>🌐 PLAY LIVE</strong></a> •
-  <a href="#-overview">Overview</a> •
-  <a href="#-play-the-game">Play</a> •
-  <a href="#-educational-content">Learn</a> •
-  <a href="#-getting-started">Install</a> •
-  <a href="#-technical-details">Technical</a> •
-  <a href="#-author">Author</a>
 </p>
 
 </div>
