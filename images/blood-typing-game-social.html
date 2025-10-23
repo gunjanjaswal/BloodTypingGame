@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Typing Game - Social Image</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f1faee;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .social-card {
+            width: 1200px;
+            height: 630px;
+            background-color: #f1faee;
+            border: 10px solid;
+            border-image: linear-gradient(45deg, #e63946, #457b9d, #1d3557) 1;
+            display: flex;
+            padding: 40px;
+            box-sizing: border-box;
+            position: relative;
+        }
+        .logo-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h1 {
+            font-size: 72px;
+            color: #1d3557;
+            margin: 0 0 20px 0;
+        }
+        h2 {
+            font-size: 32px;
+            color: #457b9d;
+            margin: 0 0 40px 0;
+            font-weight: normal;
+        }
+        .url {
+            font-size: 28px;
+            color: #e63946;
+        }
+        .blood-drop {
+            width: 200px;
+            height: 250px;
+            background: linear-gradient(to bottom right, #e63946, #9d0208);
+            border-radius: 100% 100% 5% 100%;
+            transform: rotate(-45deg);
+            position: relative;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        .blood-drop::after {
+            content: "";
+            position: absolute;
+            top: 20%;
+            left: 20%;
+            width: 30%;
+            height: 30%;
+            background-color: rgba(255,255,255,0.3);
+            border-radius: 50%;
+        }
+        .chart {
+            position: absolute;
+            bottom: 40px;
+            right: 40px;
+            width: 200px;
+            height: 200px;
+            background-color: white;
+            border: 2px solid #1d3557;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .chart-cell {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #1d3557;
+            font-weight: bold;
+        }
+        .chart-cell:nth-child(4) {
+            background-color: rgba(230, 57, 70, 0.1);
+        }
+        .blood-type {
+            color: #e63946;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="social-card">
+        <div class="logo-container">
+            <div class="blood-drop"></div>
+        </div>
+        <div class="content">
+            <h1>Blood Typing Game</h1>
+            <h2>Learn about blood types, transfusions, and save lives</h2>
+            <div class="url">bloodtypinggame.com</div>
+        </div>
+        <div class="chart">
+            <div class="chart-cell"><span class="blood-type">A+</span></div>
+            <div class="chart-cell"><span class="blood-type">B+</span></div>
+            <div class="chart-cell"><span class="blood-type">AB+</span></div>
+            <div class="chart-cell"><span class="blood-type">O-</span></div>
+        </div>
+    </div>
+    
+    <script>
+        // This script will convert the page to an image
+        // You can take a screenshot of this page and save it as blood-typing-game-social.png
+    </script>
+</body>
+</html>
