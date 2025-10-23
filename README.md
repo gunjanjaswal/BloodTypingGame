@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <a href="https://bloodtypinggame.com/" target="_blank"><strong>🌐 PLAY LIVE</strong></a> •
+  <a href="https://bloodtypinggame.com/" target="_blank"><strong>🌐 PLAY LIVE</strong></a>
 </p>
 
 </div>
