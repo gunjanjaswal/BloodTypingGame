@@ -24,6 +24,7 @@
   <a href="#-play-the-game">Play</a> •
   <a href="#-educational-content">Learn</a> •
   <a href="#-getting-started">Install</a> •
+  <a href="#-technical-details">Technical</a> •
   <a href="#-author">Author</a>
 </p>
 
