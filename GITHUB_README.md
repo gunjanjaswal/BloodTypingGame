@@ -11,7 +11,7 @@
 [![Website](https://img.shields.io/badge/Website-gunjanjaswal.me-4285F4?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://gunjanjaswal.me)
 [![GitHub](https://img.shields.io/badge/GitHub-BloodTypingGame-171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gunjanjaswal/BloodTypingGame)
 [![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
-[![Buy Me A Coffee](https://img.shields.io/badge/Support-Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/gunjanjaswal)
+[![Ko-fi](https://img.shields.io/badge/Support-Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/gunjanjaswal)
 
 <p align="center">
   <i>An interactive educational web game about blood types, transfusions, and medical science</i>
@@ -218,8 +218,8 @@ Exciting features planned for future releases:
 <div align="center">
   <p>If you find this project helpful or educational, consider supporting its development:</p>
   
-  <a href="https://www.buymeacoffee.com/gunjanjaswal" target="_blank">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60" width="217">
+  <a href="https://ko-fi.com/gunjanjaswal" target="_blank">
+    <img src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" alt="Support on Ko-fi" height="60">
   </a>
   
   <p><i>Your support helps maintain and improve this educational resource!</i></p>
@@ -292,6 +292,6 @@ Exciting features planned for future releases:
     <a href="https://gunjanjaswal.me">Website</a> •
     <a href="https://github.com/gunjanjaswal">GitHub</a> •
     <a href="mailto:hello@gunjanjaswal.me">Contact</a> •
-    <a href="https://www.buymeacoffee.com/gunjanjaswal">Support</a>
+    <a href="https://ko-fi.com/gunjanjaswal">Support</a>
   </p>
 </div>
