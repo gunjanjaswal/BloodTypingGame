@@ -26,6 +26,8 @@
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Blood Typing Game">
+    <meta property="og:locale" content="en_US">
     <meta property="og:url" content="https://bloodtypinggame.com/">
     <meta property="og:title" content="Blood Typing Game - Learn About Blood Types & Transfusions">
     <meta property="og:description" content="Interactive educational game about blood types, blood typing, and safe blood transfusions. Based on Karl Landsteiner's Nobel Prize-winning discovery.">
@@ -33,14 +35,14 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Blood Typing Game - Learn about blood types, transfusions, and save lives">
-    
+
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://bloodtypinggame.com/">
-    <meta property="twitter:title" content="Blood Typing Game - Learn About Blood Types & Transfusions">
-    <meta property="twitter:description" content="Interactive educational game about blood types, blood typing, and safe blood transfusions. Based on Nobel Prize-winning research.">
-    <meta property="twitter:image" content="https://bloodtypinggame.com/images/blood-typing-game-social.png">
-    <meta property="twitter:image:alt" content="Blood Typing Game - Learn about blood types, transfusions, and save lives">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://bloodtypinggame.com/">
+    <meta name="twitter:title" content="Blood Typing Game - Learn About Blood Types & Transfusions">
+    <meta name="twitter:description" content="Interactive educational game about blood types, blood typing, and safe blood transfusions. Based on Nobel Prize-winning research.">
+    <meta name="twitter:image" content="https://bloodtypinggame.com/images/blood-typing-game-social.png">
+    <meta name="twitter:image:alt" content="Blood Typing Game - Learn about blood types, transfusions, and save lives">
     
     <!-- Mobile App Meta -->
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -70,6 +72,10 @@
       "name": "Blood Typing Game",
       "url": "https://bloodtypinggame.com/",
       "description": "Interactive educational game about blood types, blood typing, and safe blood transfusions based on Nobel Prize-winning research.",
+      "image": "https://bloodtypinggame.com/images/blood-typing-game-social.png",
+      "inLanguage": "en",
+      "datePublished": "2025-10-27",
+      "dateModified": "2026-05-30",
       "applicationCategory": "EducationalApplication, Game",
       "operatingSystem": "Web Browser",
       "offers": {
@@ -98,6 +104,64 @@
         "name": "The Nobel Prize Blood Typing Game",
         "url": "https://educationalgames.nobelprize.org/educational/medicine/bloodtypinggame/"
       }
+    }
+    </script>
+
+    <!-- Structured Data - FAQPage (AEO) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the Blood Typing Game?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Blood Typing Game is a free interactive educational game that teaches you how to determine a patient's blood type and perform safe blood transfusions. It is inspired by the 1930 Nobel Prize-winning discovery of human blood groups by Karl Landsteiner."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the main human blood types?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There are four main ABO blood groups: A, B, AB, and O. Each can be either Rh positive (+) or Rh negative (−), giving eight common blood types: A+, A−, B+, B−, AB+, AB−, O+, and O−."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is the universal blood donor and universal recipient?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O− is the universal red blood cell donor because it has no A, B, or Rh antigens, so it can be given to anyone. AB+ is the universal recipient because it has no antibodies against A, B, or Rh antigens and can receive blood from any type."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does blood typing work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Blood typing works by mixing a blood sample with anti-A, anti-B, and anti-Rh (anti-D) reagents. If the blood clumps (agglutinates) with a reagent, the corresponding antigen is present. The pattern of agglutination reveals the ABO group and Rh status."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the Blood Typing Game free to play?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The Blood Typing Game is completely free to play in any web browser, with no sign-up or download required. It is built for students, educators, and anyone curious about how blood transfusions work."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does the wrong blood type cause a transfusion reaction?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If a patient receives blood with antigens their immune system recognizes as foreign, their antibodies attack the donor red blood cells, causing them to clump and break down. This transfusion reaction can be life-threatening, which is why correct blood typing is critical."
+          }
+        }
+      ]
     }
     </script>
 </head>
@@ -360,6 +424,84 @@
             </div>
         </div>
     </div>
+
+    <section id="faq" class="container my-5">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="faqHeading1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="false" aria-controls="faqCollapse1">
+                        What is the Blood Typing Game?
+                    </button>
+                </h3>
+                <div id="faqCollapse1" class="accordion-collapse collapse" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        The Blood Typing Game is a free interactive educational game that teaches you how to determine a patient's blood type and perform safe blood transfusions. It is inspired by the 1930 Nobel Prize-winning discovery of human blood groups by Karl Landsteiner.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="faqHeading2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                        What are the main human blood types?
+                    </button>
+                </h3>
+                <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        There are four main ABO blood groups: A, B, AB, and O. Each can be either Rh positive (+) or Rh negative (−), giving eight common blood types: A+, A−, B+, B−, AB+, AB−, O+, and O−.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="faqHeading3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+                        Who is the universal blood donor and universal recipient?
+                    </button>
+                </h3>
+                <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        O− is the universal red blood cell donor because it has no A, B, or Rh antigens, so it can be given to anyone. AB+ is the universal recipient because it has no antibodies against A, B, or Rh antigens and can receive blood from any type.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="faqHeading4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                        How does blood typing work?
+                    </button>
+                </h3>
+                <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Blood typing works by mixing a blood sample with anti-A, anti-B, and anti-Rh (anti-D) reagents. If the blood clumps (agglutinates) with a reagent, the corresponding antigen is present. The pattern of agglutination reveals the ABO group and Rh status.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="faqHeading5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                        Is the Blood Typing Game free to play?
+                    </button>
+                </h3>
+                <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Yes. The Blood Typing Game is completely free to play in any web browser, with no sign-up or download required. It is built for students, educators, and anyone curious about how blood transfusions work.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="faqHeading6">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+                        Why does the wrong blood type cause a transfusion reaction?
+                    </button>
+                </h3>
+                <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        If a patient receives blood with antigens their immune system recognizes as foreign, their antibodies attack the donor red blood cells, causing them to clump and break down. This transfusion reaction can be life-threatening, which is why correct blood typing is critical.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer class="text-center py-4 mt-5 bg-light">
         <p>This educational game is inspired by the 1930 Nobel Prize in Physiology or Medicine awarded to Karl Landsteiner for the discovery of human blood groups.</p>

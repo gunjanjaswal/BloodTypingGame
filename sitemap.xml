@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://bloodtypinggame.com/</loc>
-    <lastmod>2025-10-27</lastmod>
+    <lastmod>2026-05-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://bloodtypinggame.com/images/blood-typing-game-social.png</image:loc>
+      <image:title>Blood Typing Game - Learn About Blood Types &amp; Transfusions</image:title>
+    </image:image>
   </url>
 </urlset>
