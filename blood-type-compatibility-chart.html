@@ -100,14 +100,33 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light border-bottom">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="/"><i class="bi bi-droplet-fill text-danger"></i> Blood Typing Game</a>
-            <div class="page-nav ms-auto">
-                <a href="/">Play Game</a>
-                <a href="/blood-types-explained.html">Blood Types</a>
-                <a href="/blood-type-compatibility-chart.html">Compatibility Chart</a>
-                <a href="/blood-transfusion-guide.html">Transfusion Guide</a>
+            <a class="navbar-brand d-flex align-items-center fw-bold" href="/">
+                <img src="/images/logo.svg" alt="Blood Typing Game logo" width="38" height="38" class="me-2">
+                Blood Typing Game
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="/">Play Game</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/blood-types-explained.html">Blood Types</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/blood-type-compatibility-chart.html">Compatibility</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/blood-transfusion-guide.html">Transfusion</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="/universal-donor-recipient.html">Universal Donor &amp; Recipient</a></li>
+                            <li><a class="dropdown-item" href="/rarest-blood-type.html">Rarest &amp; Most Common</a></li>
+                            <li><a class="dropdown-item" href="/rh-factor.html">Rh Factor</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="/resources.html">Free Resources</a></li>
+                            <li><a class="dropdown-item" href="/contact.html">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -179,13 +198,45 @@
         <p class="text-muted"><small>Note: This chart covers red blood cell (packed RBC) compatibility, which is what most transfusions and the Blood Typing Game use. Plasma compatibility runs in the opposite direction (AB is the universal plasma donor). Always follow clinical guidance for real transfusions.</small></p>
     </main>
 
-    <footer class="text-center py-4 mt-5 bg-light">
-        <p>This educational resource is inspired by the 1930 Nobel Prize in Physiology or Medicine awarded to Karl Landsteiner for the discovery of human blood groups.</p>
-        <div class="mt-2">
-            <p><strong>Contact:</strong> <a href="mailto:hello@gunjanjaswal.me">hello@gunjanjaswal.me</a></p>
-            <p><a href="https://github.com/gunjanjaswal" target="_blank"><i class="bi bi-github"></i> GitHub</a> | <a href="https://gunjanjaswal.me" target="_blank"><i class="bi bi-globe"></i> Website</a></p>
+        <footer class="site-footer bg-light border-top py-5 mt-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-5">
+                    <div class="d-flex align-items-center mb-2">
+                        <img src="/images/logo.svg" alt="Blood Typing Game logo" width="36" height="36" class="me-2">
+                        <span class="fw-bold">Blood Typing Game</span>
+                    </div>
+                    <p class="text-muted small mb-2">A free, open-source educational game about blood types, blood typing, and safe transfusions. Inspired by the 1930 Nobel Prize awarded to Karl Landsteiner.</p>
+                    <a href="https://ko-fi.com/gunjanjaswal" target="_blank" rel="noopener" class="btn btn-warning btn-sm"><i class="bi bi-cup-hot"></i> Support on Ko-fi</a>
+                </div>
+                <div class="col-6 col-md-4">
+                    <h3 class="h6 text-uppercase text-secondary mb-3">Learn</h3>
+                    <ul class="list-unstyled small">
+                        <li class="mb-1"><a href="/blood-types-explained.html">Blood Types Explained</a></li>
+                        <li class="mb-1"><a href="/blood-type-compatibility-chart.html">Compatibility Chart</a></li>
+                        <li class="mb-1"><a href="/blood-transfusion-guide.html">Transfusion Guide</a></li>
+                        <li class="mb-1"><a href="/universal-donor-recipient.html">Universal Donor &amp; Recipient</a></li>
+                        <li class="mb-1"><a href="/rarest-blood-type.html">Rarest &amp; Most Common</a></li>
+                        <li class="mb-1"><a href="/rh-factor.html">Rh Factor</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h3 class="h6 text-uppercase text-secondary mb-3">Site</h3>
+                    <ul class="list-unstyled small">
+                        <li class="mb-1"><a href="/resources.html">Free Resources</a></li>
+                        <li class="mb-1"><a href="/contact.html">Contact</a></li>
+                        <li class="mb-1"><a href="/privacy-policy.html">Privacy Policy</a></li>
+                        <li class="mb-1"><a href="/terms.html">Terms &amp; Conditions</a></li>
+                        <li class="mb-1"><a href="https://github.com/gunjanjaswal/BloodTypingGame" target="_blank" rel="noopener"><i class="bi bi-github"></i> Source on GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="d-flex flex-wrap justify-content-between align-items-center small text-muted gap-2">
+                <span>&copy; 2025 Blood Typing Game. Created by Gunjan Jaswaal for educational purposes.</span>
+                <span><a href="mailto:hello@gunjanjaswal.me">hello@gunjanjaswal.me</a> &middot; <a href="https://gunjanjaswal.me" target="_blank" rel="noopener">gunjanjaswal.me</a></span>
+            </div>
         </div>
-        <p><small>&copy; 2025 Blood Typing Game. Created by Gunjan Jaswaal for educational purposes.</small></p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

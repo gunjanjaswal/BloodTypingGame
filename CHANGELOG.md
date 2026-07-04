@@ -2,6 +2,18 @@
 
 All notable changes to this project are documented here. Format based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [1.2.0] - 2026-07-04
+
+### Added
+- Sitewide responsive navigation bar with the logo, main links, and a "More" dropdown, present on every page.
+- Unified 3-column site footer (brand, Learn links, Site links) with logo and contact email.
+- New pages: Free & Open Source Resources (`resources.html`), Contact (`contact.html`), Privacy Policy (`privacy-policy.html`), and Terms & Conditions (`terms.html`).
+- Open Graph share image for the resources page (`images/og-resources.png`).
+
+### Changed
+- Added the navbar and unified footer to the home page and all six guide pages.
+- `sitemap.xml` expanded to include the resources, contact, privacy, and terms pages.
+
 ## [1.1.0] - 2026-07-04
 
 ### Added

@@ -71,4 +71,32 @@
       <image:title>Rh Factor Explained - Rh Positive vs Rh Negative Blood</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://bloodtypinggame.com/resources.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://bloodtypinggame.com/images/og-resources.png</image:loc>
+      <image:title>Free &amp; Open Source Blood Type Resources</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bloodtypinggame.com/contact.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://bloodtypinggame.com/privacy-policy.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://bloodtypinggame.com/terms.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
 </urlset>
