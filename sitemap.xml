@@ -3,12 +3,72 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://bloodtypinggame.com/</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://bloodtypinggame.com/images/blood-typing-game-social.png</image:loc>
       <image:title>Blood Typing Game - Learn About Blood Types &amp; Transfusions</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bloodtypinggame.com/blood-types-explained.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://bloodtypinggame.com/images/og-blood-types-explained.png</image:loc>
+      <image:title>Blood Types Explained - ABO &amp; Rh Blood Groups</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bloodtypinggame.com/blood-type-compatibility-chart.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://bloodtypinggame.com/images/og-compatibility-chart.png</image:loc>
+      <image:title>Blood Type Compatibility Chart</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bloodtypinggame.com/blood-transfusion-guide.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://bloodtypinggame.com/images/og-transfusion-guide.png</image:loc>
+      <image:title>Blood Transfusion Guide - How Safe Transfusions Work</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bloodtypinggame.com/universal-donor-recipient.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://bloodtypinggame.com/images/og-universal-donor-recipient.png</image:loc>
+      <image:title>Universal Blood Donor &amp; Universal Recipient</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bloodtypinggame.com/rarest-blood-type.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://bloodtypinggame.com/images/og-rarest-blood-type.png</image:loc>
+      <image:title>Rarest &amp; Most Common Blood Types</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bloodtypinggame.com/rh-factor.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://bloodtypinggame.com/images/og-rh-factor.png</image:loc>
+      <image:title>Rh Factor Explained - Rh Positive vs Rh Negative Blood</image:title>
     </image:image>
   </url>
 </urlset>

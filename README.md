@@ -82,6 +82,23 @@ The game covers:
 <h2 align="center">
   <hr style="height: 3px; background: linear-gradient(90deg, #e63946, #457b9d, #1d3557); border: none;">
   <br>
+  📚 Learning Guides
+</h2>
+
+Beyond the game, the site includes standalone reference pages covering each topic in depth:
+
+| Guide | What it covers |
+|-------|----------------|
+| [Blood Types Explained](https://bloodtypinggame.com/blood-types-explained.html) | The ABO system, Rh factor, and the 8 human blood types |
+| [Blood Type Compatibility Chart](https://bloodtypinggame.com/blood-type-compatibility-chart.html) | Full donor/recipient matrix for all 8 types |
+| [Blood Transfusion Guide](https://bloodtypinggame.com/blood-transfusion-guide.html) | How a safe transfusion works and what causes a reaction |
+| [Universal Donor & Recipient](https://bloodtypinggame.com/universal-donor-recipient.html) | Why O- gives to anyone and AB+ receives from anyone |
+| [Rarest & Most Common Blood Types](https://bloodtypinggame.com/rarest-blood-type.html) | Frequency of every blood type |
+| [Rh Factor Explained](https://bloodtypinggame.com/rh-factor.html) | Rh positive vs negative, and Rh in pregnancy |
+
+<h2 align="center">
+  <hr style="height: 3px; background: linear-gradient(90deg, #e63946, #457b9d, #1d3557); border: none;">
+  <br>
   🔧️ Technical Details
 </h2>
 
@@ -107,10 +124,20 @@ BloodTypingGame/
 ├── js/
 │   └── game.js
 ├── images/
-│   └── blood-compatibility-chart.svg
-├── index.html
+│   ├── blood-compatibility-chart.svg
+│   └── og-*.png                     # per-page social share images
+├── index.html                       # the game
+├── blood-types-explained.html       # learning guides
+├── blood-type-compatibility-chart.html
+├── blood-transfusion-guide.html
+├── universal-donor-recipient.html
+├── rarest-blood-type.html
+├── rh-factor.html
+├── sitemap.xml
+├── robots.txt
 ├── server.js
 ├── package.json
+├── CHANGELOG.md
 └── README.md
 ```
 
